@@ -31,7 +31,7 @@ const _styles = {
 };
 
 export class ModalContainer extends React.Component<Types.CommonProps<RX.View>, {}> {
-    constructor(props: Types.CommonProps) {
+    constructor(props: Types.CommonProps<RX.View>) {
         super(props);
     }
 
